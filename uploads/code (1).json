@@ -1,0 +1,212 @@
+[
+  {
+    "source": "Fever",
+    "relation": "indicates",
+    "target": "Influenza",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Influenza",
+    "relation": "treated by",
+    "target": "Antivirals",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Antivirals",
+    "relation": "prescribed by",
+    "target": "General Practitioner",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Fever",
+    "relation": "indicates",
+    "target": "COVID-19",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "COVID-19",
+    "relation": "treated by",
+    "target": "Supportive Care",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Supportive Care",
+    "relation": "prescribed by",
+    "target": "Infectious Disease Specialist",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Cough",
+    "relation": "indicates",
+    "target": "Bronchitis",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Bronchitis",
+    "relation": "treated by",
+    "target": "Cough Suppressants",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Cough Suppressants",
+    "relation": "prescribed by",
+    "target": "Pulmonologist",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Cough",
+    "relation": "indicates",
+    "target": "Pneumonia",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Pneumonia",
+    "relation": "treated by",
+    "target": "Antibiotics",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Antibiotics",
+    "relation": "prescribed by",
+    "target": "Pulmonologist",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Headache",
+    "relation": "indicates",
+    "target": "Migraine",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Migraine",
+    "relation": "treated by",
+    "target": "Triptans",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Triptans",
+    "relation": "prescribed by",
+    "target": "Neurologist",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Headache",
+    "relation": "indicates",
+    "target": "Tension-Type Headache",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Tension-Type Headache",
+    "relation": "treated by",
+    "target": "Analgesics",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Analgesics",
+    "relation": "prescribed by",
+    "target": "General Practitioner",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Nausea",
+    "relation": "indicates",
+    "target": "Gastroenteritis",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Gastroenteritis",
+    "relation": "treated by",
+    "target": "Hydration",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Hydration",
+    "relation": "prescribed by",
+    "target": "Gastroenterologist",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Nausea",
+    "relation": "indicates",
+    "target": "Pregnancy",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Pregnancy",
+    "relation": "treated by",
+    "target": "Dietary Changes",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Dietary Changes",
+    "relation": "prescribed by",
+    "target": "Obstetrician",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Fatigue",
+    "relation": "indicates",
+    "target": "Anemia",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Anemia",
+    "relation": "treated by",
+    "target": "Iron Supplements",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Iron Supplements",
+    "relation": "prescribed by",
+    "target": "Hematologist",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  },
+  {
+    "source": "Fatigue",
+    "relation": "indicates",
+    "target": "Chronic Fatigue Syndrome",
+    "source_type": "Symptom",
+    "target_type": "Disease"
+  },
+  {
+    "source": "Chronic Fatigue Syndrome",
+    "relation": "treated by",
+    "target": "Cognitive Behavioral Therapy",
+    "source_type": "Disease",
+    "target_type": "Treatment"
+  },
+  {
+    "source": "Cognitive Behavioral Therapy",
+    "relation": "prescribed by",
+    "target": "Specialist in Chronic Fatigue",
+    "source_type": "Treatment",
+    "target_type": "Specialist"
+  }
+]
