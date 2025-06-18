@@ -10,18 +10,24 @@ class MedicalGraph:
         self.graph.add_edge(source, target, label=relation)
 
     def query_diagnosis(self, symptom):
+        if symptom not in self.graph:
+            return []
         return [
             target for target, edge in self.graph[symptom].items()
             if edge.get("label") == "indicates"
         ]
 
     def query_treatments(self, disease):
+        if disease not in self.graph:
+            return []
         return [
             target for target, edge in self.graph[disease].items()
             if edge.get("label") == "treated by"
         ]
 
     def query_specialists(self, condition):
+        if condition not in self.graph:
+            return[]
         results = []
         for target, edge in self.graph[condition].items():
             if edge.get("label") in ["managed by", "prescribed by"]:
