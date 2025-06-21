@@ -1,5 +1,10 @@
 Flask
+flask-cors
 pandas
 numpy
 scikit-learn
 requests
+networkx
+thefuzz
+python-Levenshtein
+autocorrect
